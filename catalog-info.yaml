@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: prayankag
+  description: A user entity for prayankag
+  tags:
+    - admin
+    - developer
+spec:
+  profile:
+    displayName: Priyanka G
+    email: prayanka.gochipatula@valuemomentum.com
+  memberOf:
+    - vam-sre-team
+    - devops-team
+    - dev-team
